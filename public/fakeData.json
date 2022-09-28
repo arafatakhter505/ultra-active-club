@@ -1,0 +1,44 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "title": "The Ride",
+    "age": "20-45",
+    "time": 130,
+    "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pure-gym-6-1550578136.jpg?crop=1xw:1xh;center,top&resize=480:*"
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    "title": "Mind Body Burn",
+    "age": "20-35",
+    "time": 70,
+    "img": "https://s3-us-west-2.amazonaws.com/prod-api-lymberfitness/studios/151330/gallery_images/1031402/cropped_mindbody_sc_wide.jpg?1599241942"
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "title": "Dumbbell Exercises",
+    "age": "20-40",
+    "time": 60,
+    "img": "https://cdn.shopify.com/s/files/1/0327/8461/3514/files/DSC07877.jpg?v=1628259806"
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "title": "Barbell Push Press",
+    "age": "20-30",
+    "time": 40,
+    "img": "https://www.mensjournal.com/wp-content/uploads/mf/shoulder_press_main.jpg?w=1188&h=675&crop=1&quality=86&strip=all"
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "title": "Shoulder Lateral Raise",
+    "age": "20-50",
+    "time": 80,
+    "img": "https://www.muscleandfitness.com/wp-content/uploads/2016/05/leaninglateralraise.jpg?quality=86&strip=all"
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "title": "Bench Press",
+    "age": "20-25",
+    "time": 70,
+    "img": "https://assets.gqindia.com/photos/5e54b97ee1cde5000859f2d6/master/pass/This%20is%20how%20you%20should%20actually%20bench-press.jpg"
+  }
+]
