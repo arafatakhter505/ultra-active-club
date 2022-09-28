@@ -1,0 +1,10 @@
+.sidebar {
+  background-color: #16a085;
+  color: white;
+  padding: 30px;
+}
+
+.sidebar-container {
+  position: sticky;
+  top: 40px;
+}

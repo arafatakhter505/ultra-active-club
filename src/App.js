@@ -1,11 +1,12 @@
 import "./App.css";
 import MainArea from "./components/MainArea/MainArea";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
     <div className="App">
       <MainArea></MainArea>
-      <h3>SIde bar</h3>
+      <Sidebar></Sidebar>
     </div>
   );
 }

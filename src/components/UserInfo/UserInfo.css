@@ -1,0 +1,19 @@
+.user-info img {
+  width: 70px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.user-info h3 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.user-info p {
+  margin: 0;
+}
+
+.user-body-info {
+  display: flex;
+  justify-content: space-between;
+}
