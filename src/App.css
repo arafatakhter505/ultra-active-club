@@ -2,3 +2,10 @@
   display: grid;
   grid-template-columns: 4fr 1fr;
 }
+
+/* mobile view */
+@media only screen and (max-width: 688px) {
+  .App {
+    grid-template-columns: 1fr;
+  }
+}
