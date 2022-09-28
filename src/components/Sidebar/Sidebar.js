@@ -1,4 +1,6 @@
 import React from "react";
+import Break from "../Break/Break";
+import ExerciseDetails from "../ExerciseDetails/ExerciseDetails";
 import UserInfo from "../UserInfo/UserInfo";
 import "./Sidebar.css";
 
@@ -7,6 +9,8 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar-container">
         <UserInfo></UserInfo>
+        <Break></Break>
+        <ExerciseDetails></ExerciseDetails>
       </div>
     </div>
   );
