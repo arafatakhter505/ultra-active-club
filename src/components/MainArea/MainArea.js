@@ -4,10 +4,11 @@ import Exercises from "../Exercises/Exercises";
 import BrandName from "../BrandName/BrandName";
 
 const MainArea = (props) => {
+  const { handleAddToList } = props;
   return (
     <div className="main-area">
       <BrandName></BrandName>
-      <Exercises handleAddToList={props.handleAddToList}></Exercises>
+      <Exercises handleAddToList={handleAddToList}></Exercises>
     </div>
   );
 };

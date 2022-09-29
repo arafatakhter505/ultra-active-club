@@ -5,6 +5,7 @@ import UserInfo from "../UserInfo/UserInfo";
 import "./Sidebar.css";
 
 const Sidebar = (props) => {
+  const { time } = props;
   const [breakTime, setBrekTime] = useState(0);
   const handleBreakTime = (time) => {
     setBrekTime(time);
@@ -18,8 +19,8 @@ const Sidebar = (props) => {
         <UserInfo></UserInfo>
         <Break handleBreakTime={handleBreakTime}></Break>
         <ExerciseDetails
-          exerciseTime={props.time}
-          breakTime={getBreakTime}
+          exerciseTime={time}
+          breakTime={getBreakTime ? getBreakTime : breakTime}
         ></ExerciseDetails>
       </div>
     </div>
