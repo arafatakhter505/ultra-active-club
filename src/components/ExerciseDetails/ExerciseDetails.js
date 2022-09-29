@@ -1,10 +1,14 @@
 import React from "react";
 import "./ExerciseDetails.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ExerciseDetails = (props) => {
   const { exerciseTime, breakTime } = props;
   const handleActivity = () => {
-    alert("Hey Bro");
+    toast.success("Congratulation You Finished Activity", {
+      position: "top-center",
+    });
   };
 
   return (
@@ -15,6 +19,7 @@ const ExerciseDetails = (props) => {
       <button onClick={handleActivity} className="activity-btn">
         Activity Completed
       </button>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
