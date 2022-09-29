@@ -3,11 +3,11 @@ import "./MainArea.css";
 import Exercises from "../Exercises/Exercises";
 import BrandName from "../BrandName/BrandName";
 
-const MainArea = () => {
+const MainArea = (props) => {
   return (
     <div className="main-area">
       <BrandName></BrandName>
-      <Exercises></Exercises>
+      <Exercises handleAddToList={props.handleAddToList}></Exercises>
     </div>
   );
 };
